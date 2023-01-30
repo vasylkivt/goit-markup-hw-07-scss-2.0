@@ -1,0 +1,39 @@
+.address {
+  margin-left: auto;
+
+  @media screen and (max-width: 767px) {
+    & {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts-header {
+    display: flex;
+    gap: 40px;
+  }
+}
+
+.contacts-header-link {
+  font-size: 12px;
+  line-height: 1.33;
+  color: var(--primary-text-color-dark);
+  letter-spacing: 0.02em;
+
+  transition: color var(--time-and-style-of-transition);
+
+  @media screen and (min-width: 1200px) {
+    & {
+      display: block;
+      padding-top: 24px;
+      padding-bottom: 24px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+  &:hover,
+  &:focus {
+    color: var(--primary-accent-color);
+  }
+}
