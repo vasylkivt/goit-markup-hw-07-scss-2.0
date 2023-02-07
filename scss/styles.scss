@@ -1,15 +1,18 @@
-@import './base/root';
 @import './base/reset';
 @import './base/base';
 
-@import './components/visually-hidden.scss';
-@import './components/container.scss';
-@import './components/section';
-@import './components/section-title';
-@import './components/text';
+@import './utils/root';
+@import './utils/visually-hidden.scss';
+@import './utils/container.scss';
+@import './utils/section';
+@import './utils/section-title';
+@import './utils/text';
 
-@import './layout/header';
-@import './layout/logo';
-@import './layout/navigation';
-@import './layout/address';
-@import './layout/mobile-menu';
+@import './components/header';
+@import './components/logo';
+@import './components/navigation';
+@import './components/address';
+@import './components/mobile-menu';
+@import './components/webstudio/hero';
+@import './components/webstudio/benefits';
+@import './components/webstudio/backdrop';

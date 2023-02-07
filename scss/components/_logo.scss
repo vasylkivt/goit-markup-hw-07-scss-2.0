@@ -8,17 +8,17 @@
   text-transform: uppercase;
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
- & {
-    margin-right: 123px;
+    & {
+      margin-right: 123px;
+    }
   }
-}
-@media screen and (min-width: 1200px) {
-  & {
-    margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+  @media screen and (min-width: 1200px) {
+    & {
+      margin-right: 76px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
   }
-}
 }
 
 .logo-header {
